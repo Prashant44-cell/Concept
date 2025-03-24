@@ -4,6 +4,7 @@ public class OTPGenerator {
     public static void main(String[] args) {
 // Here random is used to form new otp.
         Random random = new Random();
+// Here defining number you can specified how long otp you required.
         int otp = 1000 + random.nextInt(9000); 
 // Otp generated as 4 digit.
         System.out.println("Your OTP is: " + otp);
